@@ -1,0 +1,42 @@
+{
+	"buildings":[
+		{
+			"code" : "deuterium_synthetizer"
+
+		},
+		{
+			"code" : "metal_mine",
+			"cost" : {
+				"metal" : {
+					"coef1" : "60",
+					"coef2" : "1.5"
+				},
+				"crystal" : {
+					"coef1" : "15",
+					"coef2" : "1.5"
+				}
+			},
+			"production" : {
+				"coef1" : "60",
+				"coef2" : "1.1"
+			}
+		},
+		{
+			"code" : "crystal_mine",
+			"cost" : {
+				"metal" : {
+					"coef1" : "48",
+					"coef2" : "1.6"
+				},
+				"crystal" : {
+					"coef1" : "24",
+					"coef2" : "1.6"
+				}
+			},
+			"production" : {
+				"coef1" : "20",
+				"coef2" : "1.1"
+			}
+		}
+	]
+}

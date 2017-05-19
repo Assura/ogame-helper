@@ -1,0 +1,27 @@
+{
+	"name" : "assura/ogame-helper",
+	"description" : "Formula and others for Ogame",
+	"keywords" : ["Silex", "Ogame"],
+	"type" : "library",
+	"authors" : [
+		{
+			"name" : "Thomas LEFETZ"
+		}
+	],
+	"autoload": {
+		"psr-4" : { 
+			"Assura\\Ogame\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4" : { 
+			"Assura\\Ogame\\Tests\\": "tests/"
+		}
+	},
+    "require": {
+        "silex/silex": "~2.0"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "4.8"
+	}
+}
